@@ -1,6 +1,54 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿/* video */
+#love {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: love;
+    animation-duration: 4s;
+}
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes love {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+/* Standard syntax */
+@keyframes love {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+
+/* pre coded */
 a.navbar-brand {
   white-space: normal;
   text-align: center;

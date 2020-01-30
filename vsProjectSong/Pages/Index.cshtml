@@ -4,7 +4,100 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@* Video *@
+<div class="jumbotron jumbotron-fluid text-center border-dark" id="love">
+    <h1 class="display-4">Love is in The Air</h1>
+    <p class="lead">John Paul Jones - 1978</p>
+    <p>
+        <!-- Button trigger modal -->
+        <div class="container align-items-center">
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalScrollable">
+                Click to See Lyrics
+            </button>
+        </div>
+    </p>
 </div>
+<div class="embed-responsive embed-responsive-16by9 border-dark">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NNC0kIzM1Fo" allowfullscreen></iframe>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalScrollableTitle">Love is in The Air</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Love is in the air, everywhere I look around<br />
+                    Love is in the air, every sight and every sound<br />
+                    And I don't know if I'm being foolish<br />
+                    Don't know if I'm being wise<br />
+                    But it's something that I must believe in<br />
+                    And it's there when I look in your eyes<br />
+                </p>
+                <p>
+                    Love is in the air, in the whisper of the tree<br />
+                    Love is in the air, in the thunder of the sea<br />
+                    And I don't know if I'm just dreaming<br />
+                    Don't know if I feel safe<br />
+                    But it's something that I must believe in<br />
+                    And it's there when you call out my name<br />
+                </p>
+
+                <p>
+                    Love is in the air<br />
+                    Love is in the air<br />
+                    Oh, oh, oh, oh<br />
+                </p>
+                <p>
+                    Love is in the air, in the rising of the sun<br />
+                    Love is in the air, when the day is nearly done<br />
+                    And I don't know if you're illusion<br />
+                    Don't know if I see truth<br />
+                    But you're something that I must believe in<br />
+                    And you're there when I reach out for you<br />
+                </p>
+                <p>
+                    Love is in the air, everywhere I look around<br />
+                    Love is in the air, every sight and every sound<br />
+                    And I don't know if I'm being foolish<br />
+                    Don't know if I'm being wise<br />
+                    But it's something that I must believe in<br />
+                    And it's there when I look in your eyes<br />
+                </p>
+
+                <p>
+                    Love is in the air<br />
+                    Love is in the air<br />
+                    Oh, oh, oh, oh<br />
+                </p>
+                <p>
+                    Oh, love is in the air<br />
+                    Love is in the air<br />
+                    Love's is in the air<br />
+                    Love's is in the air<br />
+                    Love is in the air<br />
+                </p>
+                <div class="container">
+
+                </div>
+
+
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary popover-dismiss" data-trigger="focus" data-toggle="popover" title="Source: LyricFind" data-content="Songwriters: George Young / Johannes Vandenberg&#10;Lyrics &copy; Spirit Music Group, BMG Rights Management">View Credits</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
